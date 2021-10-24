@@ -1,0 +1,6 @@
+Warning (10273): Verilog HDL warning at mux_3to1_8bit.v(17): extended using "x" or "z" File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v Line: 17
+Warning (10268): Verilog HDL information at imem_controller.v(20): always construct contains both blocking and non-blocking assignments File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v Line: 20
+Warning (10268): Verilog HDL information at dmem_controller.v(46): always construct contains both blocking and non-blocking assignments File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v Line: 46
+Info (10281): Verilog HDL Declaration information at core.v(25): object "busMUX" differs only in case from object "BUSMUX" in the same scope File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v Line: 25
+Warning (10268): Verilog HDL information at controlunit.v(72): always construct contains both blocking and non-blocking assignments File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v Line: 72
+Warning (10273): Verilog HDL warning at Bus_mux.v(56): extended using "x" or "z" File: C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v Line: 56

@@ -1,0 +1,452 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ChamikaIshanSudusing/Documents/pointcloud/simulation/modelsim
+vAlu
+Z1 !s110 1635094684
+!i10b 1
+!s100 iVm`o0kg=UEYGj57eHV9_0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IX_nK]kS`_9:Y2eIU5FoZ=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1625923758
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v
+!i122 12
+L0 1 34
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1635094684.000000
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud
+Z9 tCvgOpt 0
+n@alu
+vAR
+R1
+!i10b 1
+!s100 zn^T;=SP1_3Q3m9X[:]3C0
+R2
+IVn>HEUiGh5cR;dd6Ne=6U0
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v
+!i122 11
+L0 1 27
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v|
+!i113 1
+R7
+R8
+R9
+n@a@r
+vBus_mux
+R1
+!i10b 1
+!s100 [CQIEPK0=Wn<9PFPbBi5P1
+R2
+I=LF6LUQX:Nc6>3NjnLoM_2
+R3
+R0
+w1635062512
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v
+!i122 10
+L0 5 57
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v|
+!i113 1
+R7
+R8
+R9
+n@bus_mux
+vComp
+R1
+!i10b 1
+!s100 Sac`>I9^O?U:_XTo]<N9<1
+R2
+IYJOmDVo?oHP]IV2N2;gM_0
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v
+!i122 9
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v|
+!i113 1
+R7
+R8
+R9
+n@comp
+vcontrolunit
+R1
+!i10b 1
+!s100 Y@6G_<Nai_X@OY`1FEihf1
+R2
+I7f6DGN47dU1jZbSi=^H_I0
+R3
+R0
+w1635091752
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v
+!i122 16
+L0 38 1212
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/cu_param.v|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v|
+!i113 1
+R7
+R8
+R9
+vcore
+R1
+!i10b 1
+!s100 iTmN0ck]B`X]:OMdAA^LG0
+R2
+IfASVJkU4]eM9oDKce<>ka2
+R3
+R0
+w1635078726
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v
+!i122 15
+L0 3 109
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/proc_param.v|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v|
+!i113 1
+R7
+R8
+R9
+vdata_mem
+R1
+!i10b 1
+!s100 MOJ1A;1LkiNZIHne]ke4o1
+R2
+Ik0WQCzJ3B4f12IbnBjEJ]0
+R3
+R0
+w1635093730
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v
+!i122 14
+L0 4 51
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v|
+!i113 1
+R7
+R8
+R9
+vdmem_controller
+R1
+!i10b 1
+!s100 V6>FVzlR`VzRoLhildYZf0
+R2
+Id`zJ`_TOCcRAMCD_@=Nhj2
+R3
+R0
+Z10 w1625923760
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v
+!i122 8
+L0 1 1274
+R5
+r1
+!s85 0
+31
+Z11 !s108 1635094683.000000
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v|
+!i113 1
+R7
+R8
+R9
+vimem_controller
+Z12 !s110 1635094683
+!i10b 1
+!s100 j3:E7?Xb__Pffk2l]E1@E0
+R2
+I?8H27MUDPZzQ>Z53HaRok0
+R3
+R0
+R10
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v
+!i122 7
+L0 1 332
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v|
+!i113 1
+R7
+R8
+R9
+vins_mem
+R1
+!i10b 1
+!s100 VX`R?]BnKYJZ@VkBVQHk=2
+R2
+I]7ICgP]hXaC5`FPVNHchB1
+R3
+R0
+w1635093745
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v
+!i122 13
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v|
+!i113 1
+R7
+R8
+R9
+vmux_3to1_8bit
+R12
+!i10b 1
+!s100 `mbk<IcC?L1kZ21H^3C3N2
+R2
+IB;jccG7Ih^HfVYQ8k@7E:2
+R3
+R0
+R10
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v
+!i122 6
+L0 1 23
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v|
+!i113 1
+R7
+R8
+R9
+vPC
+R12
+!i10b 1
+!s100 RlA`HmnI]cD<1JVLU?OfK3
+R2
+IgBom7Q12k:L57UTBXeHg^1
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v
+!i122 5
+Z13 L0 1 21
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v|
+!i113 1
+R7
+R8
+R9
+n@p@c
+vprocessor
+R12
+!i10b 1
+!s100 IBB@GoXK0S=9Z_N<6V8aJ1
+R2
+I>74D?2V;d0z?_aA9[i3>;0
+R3
+R0
+w1635090229
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v
+!i122 4
+L0 2 112
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v|
+!i113 1
+R7
+R8
+R9
+vprocessor_tb
+R1
+!i10b 1
+!s100 ]bH1WdZ5J@j=9e2O4OBDd3
+R2
+I3DEfb?nb[[mdFUWL?3FG`3
+R3
+R0
+R10
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v
+!i122 17
+L0 2 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v|
+!i113 1
+R7
+R8
+R9
+vReg_module_RI
+R12
+!i10b 1
+!s100 M]=;=5QoXb<TjbZnWDe4:0
+R2
+I[TYazWlL8=2>KWX3^M_3N3
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v
+!i122 3
+Z14 L0 1 18
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v|
+!i113 1
+R7
+R8
+R9
+n@reg_module_@r@i
+vReg_module_RW
+R12
+!i10b 1
+!s100 d]<Y4EIXFAlZLk8VilgI[3
+R2
+IOMje8a5>hNOZYZoPlLg]>3
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v
+!i122 2
+L0 1 19
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v|
+!i113 1
+R7
+R8
+R9
+n@reg_module_@r@w
+vReg_module_W
+R12
+!i10b 1
+!s100 3@7k`1XKgD>4mm5ac;N492
+R2
+I2JKI;0j0<MTWn^hjR?85d1
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v
+!i122 1
+R14
+R5
+r1
+!s85 0
+31
+Z15 !s108 1635094682.000000
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v|
+!i113 1
+R7
+R8
+R9
+n@reg_module_@w
+vReg_module_WI
+!s110 1635094682
+!i10b 1
+!s100 ZPg7H?RVPQeXl=VmT6BXk1
+R2
+IDn`gO;<PRh=zgn@C21SHa0
+R3
+R0
+R4
+8C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v
+FC:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v
+!i122 0
+R13
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud|C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v|
+!i113 1
+R7
+R8
+R9
+n@reg_module_@w@i

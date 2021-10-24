@@ -1,0 +1,237 @@
+# Reading pref.tcl
+# do pointcloud_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:02 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_WI.v 
+# -- Compiling module Reg_module_WI
+# 
+# Top level modules:
+# 	Reg_module_WI
+# End time: 22:28:02 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:02 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_W.v 
+# -- Compiling module Reg_module_W
+# 
+# Top level modules:
+# 	Reg_module_W
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RW.v 
+# -- Compiling module Reg_module_RW
+# 
+# Top level modules:
+# 	Reg_module_RW
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Reg_module_RI.v 
+# -- Compiling module Reg_module_RI
+# 
+# Top level modules:
+# 	Reg_module_RI
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/proc_param.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/proc_param.v 
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/mux_3to1_8bit.v 
+# -- Compiling module mux_3to1_8bit
+# 
+# Top level modules:
+# 	mux_3to1_8bit
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/imem_controller.v 
+# -- Compiling module imem_controller
+# 
+# Top level modules:
+# 	imem_controller
+# End time: 22:28:03 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:03 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/dmem_controller.v 
+# -- Compiling module dmem_controller
+# 
+# Top level modules:
+# 	dmem_controller
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/cu_param.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/cu_param.v 
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Comp.v 
+# -- Compiling module Comp
+# 
+# Top level modules:
+# 	Comp
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Bus_mux.v 
+# -- Compiling module Bus_mux
+# 
+# Top level modules:
+# 	Bus_mux
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/AR.v 
+# -- Compiling module AR
+# 
+# Top level modules:
+# 	AR
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/Alu.v 
+# -- Compiling module Alu
+# 
+# Top level modules:
+# 	Alu
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/ins_mem.v 
+# -- Compiling module ins_mem
+# 
+# Top level modules:
+# 	ins_mem
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/data_mem.v 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/core.v 
+# -- Compiling module core
+# 
+# Top level modules:
+# 	core
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/controlunit.v 
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud {C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:28:04 on Oct 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ChamikaIshanSudusing/Documents/pointcloud" C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 22:28:04 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" processor_tb 
+# Start time: 22:28:04 on Oct 24,2021
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ins_mem
+# Loading work.data_mem
+# Loading work.imem_controller
+# Loading work.dmem_controller
+# Loading work.core
+# Loading work.PC
+# Loading work.Reg_module_W
+# Loading work.AR
+# Loading work.Reg_module_RW
+# Loading work.Reg_module_RI
+# Loading work.Reg_module_WI
+# Loading work.Alu
+# Loading work.mux_3to1_8bit
+# Loading work.Comp
+# Loading work.Bus_mux
+# Loading work.controlunit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v(18)
+#    Time: 8220 ns  Iteration: 1  Instance: /processor_tb
+# Break in Module processor_tb at C:/Users/ChamikaIshanSudusing/Documents/pointcloud/processor_tb.v line 18
